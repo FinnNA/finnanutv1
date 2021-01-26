@@ -1,4 +1,14 @@
-<link rel="stylesheet" href="style.css">
+<!--<link rel="stylesheet" href="style.css">-->
+<style>
+.verticalhorizontal {
+    display: table-cell;
+    height: 300px;
+    text-align: center;
+    width: 300px;
+    vertical-align: middle;
+}
+</style>
+
 <script>
 var audio = new Audio("nut.mp3" ) ;
 
@@ -6,13 +16,14 @@ audio.oncanplaythrough = function(){
 audio.play();
 }
 
+audio.loop = true;
 
-
-
+audio.onended = function(){
+audio.play();
+}
 
 </script>
 <div class="verticalhorizontal">
-    
-	<input type="image" src="nutbutton.jpg" onclick="audio.play()">
+    <input type="image" src="nutbutton.jpg" onclick="audio.play()">
 </div>
 
