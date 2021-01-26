@@ -1,0 +1,20 @@
+<link rel="stylesheet" href="style.css">
+<script>
+var audio = new Audio("nut.mp3" ) ;
+
+audio.oncanplaythrough = function(){
+audio.play();
+}
+
+audio.loop = true;
+
+audio.onended = function(){
+audio.play();
+}
+
+</script>
+<div class="verticalhorizontal">
+    
+	<input type="image" src="nutbutton.jpg" onclick="audio.play()">
+</div>
+
