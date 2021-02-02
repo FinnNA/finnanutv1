@@ -19,6 +19,30 @@
         width:10%
     }
         
+ .footer{ 
+    font-size: 200%;
+        text-align: center;
+        font-family: 'Chakra Petch', sans-serif;
+        color: #878787;
+      position: fixed;
+        left: 0;
+        bottom: 0;
+    width: 100%;  
+        }
+.title{
+    font-size: 175%;
+    text-align: left;
+        font-family: 'Chakra Petch', sans-serif;
+        color: #878787;
+}
+
+.title b{
+    font-size: 50%;
+    text-align: left;
+        font-family: 'Chakra Petch', sans-serif;
+        color: #bababa;
+}
+
 
 @media only screen and (max-width: 600px) {
   body{
