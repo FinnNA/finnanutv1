@@ -1,4 +1,4 @@
-var startDateTime = new Date(2021,2,9,21,30,0,0); // YYYY (M-1) D H m s (start time and date from DB)
+var startDateTime = new Date(2021,2,8,21,30,0,0); // YYYY (M-1) D H m s (start time and date from DB)
 var startStamp = startDateTime.getTime();
 
 var newDate = new Date();
